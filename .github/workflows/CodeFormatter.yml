@@ -24,7 +24,7 @@ jobs:
         run: |
           isort bot/modules/ bot/helpers/ bot/__init__.py
           black bot/modules/ bot/helpers/ bot/__init__.py
-      - uses: stefanzweifel/git-auto-commit-action@v4.15.2
+      - uses: stefanzweifel/git-auto-commit-action@v4.15.3
         with:
           commit_message: "Auto: Code Formatted"
           commit_options: "--no-verify"
